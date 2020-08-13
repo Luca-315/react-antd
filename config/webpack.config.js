@@ -125,7 +125,7 @@ module.exports = function (webpackEnv) {
             preProcessor === "less-loader"
               ? {
                   lessOptions: {
-                    modifyVars: { "@primary-color": "#1DA57A" },
+                    modifyVars: {},
                     javascriptEnabled: true,
                   },
                 }

@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+.logo {
+  padding: 16px;
+  display: flex;
+  height: 64px;
+  background-color: $menu-dark-bg;
+  align-items: center;
+  &__img {
+    height: calc(100%);
+  }
+  &__title {
+    color: #fff;
+    padding-left: 12px;
+    font-size: 16px;
+  }
+}

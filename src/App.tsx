@@ -1,9 +1,7 @@
 import React from "react";
-import { Button } from "antd";
 import "antd/dist/antd.less";
+import { MainLayout } from "src/layouts/MainLayout";
 
-export const App: React.FC = () => (
-  <div style={{ padding: "20px" }}>
-    <Button type="primary">Add</Button>
-  </div>
-);
+export const App: React.FC = () => {
+  return <MainLayout>Router</MainLayout>;
+};
